@@ -74,8 +74,11 @@ def infer(df):
 	axs[1,0].set_title('XGBoost - random_state vs mse error')
 	plt.show()
        
-        print('Pearson coefficient')
+    print('Pearson coefficient')
  	print(pearsonr(errors_linear,errors_svr))
+ 	print("Cross validation score for different values of random_state for Linear regression - ", scores_linear)
+	print("Cross validation score for different values of random_state for SVR - ", scores_svr)
+	print("Cross validation score for different values of random_state for XGBoost - ", scores_xgb)
  	
  if __name__ == '__main__':
  	 df1 = pd.read_csv('100rows_dataset')
