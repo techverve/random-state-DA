@@ -42,17 +42,19 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#code structure">Code Structure</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
+      <a href="#getting-started">Getting Started</a>
     </li>
-   \
-    <li><a href="#code structure">Code Structure</a></li>
+   
+    
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -73,6 +75,33 @@ In this project, we focus on quantifying model learning as a function of random_
 
 * [Python](https://python.com)
 
+## Code structure
+/*root<br/>
+      &emsp;&emsp;|<br/>
+     &emsp;&emsp;|---data/<br/>
+            &emsp;&emsp;&emsp;&emsp;|---datasets1.csv<br/>
+            &emsp;&emsp;&emsp;&emsp;|---datasets2.csv<br/>
+      &emsp;&emsp;|---results/<br/>
+            &emsp;&emsp;&emsp;&emsp;|---plot.png<br/>
+            &emsp;&emsp;&emsp;&emsp;|---plot2.png<br/>
+            &emsp;&emsp;&emsp;&emsp;|---plot3.png<br/>
+      &emsp;&emsp;|---scripts/<br/>
+            &emsp;&emsp;&emsp;&emsp;|---dataset_gen.py<br/>
+            &emsp;&emsp;&emsp;&emsp;|---infer.py<br/>
+      &emsp;&emsp;|---infer.ipynb<br/>
+
+
+
+
+
+### Prerequisites
+
+
+  ```sh
+  pip3 install -r requirements.txt
+  ```
+
+
 
 
 
@@ -89,37 +118,11 @@ Run /scripts/infer.py for training the models, generating plots, and running cro
   python3 infer.py
   ```
 
-### Prerequisites
-
-
-  ```sh
-  pip3 install -r requirements.txt
-  ```
-
-
-
-
-
-<!-- USAGE EXAMPLES -->
-
 
 
 
 <!-- ROADMAP -->
-## Code structure
-/*root<br/>
-      &emsp;&emsp;|<br/>
-     &emsp;&emsp;|---data/<br/>
-            &emsp;&emsp;&emsp;&emsp;|---datasets1.csv<br/>
-            &emsp;&emsp;&emsp;&emsp;|---datasets2.csv<br/>
-      &emsp;&emsp;|---results/<br/>
-            &emsp;&emsp;&emsp;&emsp;|---plot.png<br/>
-            &emsp;&emsp;&emsp;&emsp;|---plot2.png<br/>
-            &emsp;&emsp;&emsp;&emsp;|---plot3.png<br/>
-      &emsp;&emsp;|---scripts/<br/>
-            &emsp;&emsp;&emsp;&emsp;|---dataset_gen.py<br/>
-            &emsp;&emsp;&emsp;&emsp;|---infer.py<br/>
-      &emsp;&emsp;|---infer.ipynb<br/>
+
             
 
 
@@ -173,7 +176,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/jeff10joy/random-state-da.svg?style=for-the-badge
 [contributors-url]: https://github.com/jeff10joy/random-state-da/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
