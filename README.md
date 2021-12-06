@@ -44,7 +44,7 @@
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
        </ul>
-    <a href="#getting-started">Getting Started</a>
+       <a href="#getting-started">Getting Started</a>
     </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -66,7 +66,7 @@ In this project, we focus on quantifying model learning as a function of random_
 
 * [Python](https://python.com)
 
-## Code structure
+## Folder structure
 /*root<br/>
       &emsp;&emsp;|<br/>
      &emsp;&emsp;|---data/<br/>
