@@ -108,18 +108,18 @@ Run /scripts/infer.py for training the models, generating plots, and running cro
 <!-- ROADMAP -->
 ## Code structure
 /*root<br/>
-      &nbsp;|<br/>
-      &nbsp;|---data/<br/>
-            &emsp;&emsp;|---datasets1.csv<br/>
-            &emsp;&emsp;|---datasets2.csv<br/>
-      &nbsp;|---results/<br/>
-            &emsp;&emsp;|---plot.png<br/>
-            &emsp;&emsp;|---plot2.png<br/>
-            &emsp;&emsp;|---plot3.png<br/>
-      &nbsp;|---scripts/<br/>
-            &emsp;&emsp;|---dataset_gen.py<br/>
-            &emsp;&emsp;|---infer.py<br/>
-      &nbsp;|---infer.ipynb<br/>
+      &emsp;&emsp;|<br/>
+     &emsp;&emsp;|---data/<br/>
+            &emsp;&emsp;&emsp;&emsp;|---datasets1.csv<br/>
+            &emsp;&emsp;&emsp;&emsp;|---datasets2.csv<br/>
+      &emsp;&emsp;|---results/<br/>
+            &emsp;&emsp;&emsp;&emsp;|---plot.png<br/>
+            &emsp;&emsp;&emsp;&emsp;|---plot2.png<br/>
+            &emsp;&emsp;&emsp;&emsp;|---plot3.png<br/>
+      &emsp;&emsp;|---scripts/<br/>
+            &emsp;&emsp;&emsp;&emsp;|---dataset_gen.py<br/>
+            &emsp;&emsp;&emsp;&emsp;|---infer.py<br/>
+      &emsp;&emsp;|---infer.ipynb<br/>
             
 
 
@@ -174,13 +174,13 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/jeff10joy
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/jeff10joy/random-state-da/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/jeff10joy/random-state-DA.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-shield]: https://img.shields.io/github/stars/jeff10joy/random-state-da.svg?style=for-the-badge
+[stars-url]: https://github.com/jeff10joy/random-state-da/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-url]: https://github.com/jeff10joy/random-state-da/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
