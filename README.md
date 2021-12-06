@@ -107,19 +107,19 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 ## Code structure
-/*root
-      |
-      |---data/
-            |---datasets1.csv
-            |---datasets2.csv
-      |---results/
-            |---plot.png
-            |---plot2.png
-            |---plot3.png
-      |---scripts/
-            |---dataset_gen.py
-            |---infer.py
-      |---infer.ipynb
+/*root<br/>
+      |<br/>
+      |---data/<br/>
+            |---datasets1.csv<br/>
+            |---datasets2.csv<br/>
+      |---results/<br/>
+            |---plot.png<br/>
+            |---plot2.png<br/>
+            |---plot3.png<br/>
+      |---scripts/<br/>
+            |---dataset_gen.py<br/>
+            |---infer.py<br/>
+      |---infer.ipynb<br/>
             
 
 
