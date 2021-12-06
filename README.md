@@ -55,11 +55,11 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#code structure">Roadmap</a></li>
+    <li><a href="#code structure">Code Structure</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+   
   </ol>
 </details>
 
@@ -108,18 +108,18 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Code structure
 /*root<br/>
-      |<br/>
-      |---data/<br/>
-            &emsp;|---datasets1.csv<br/>
-            |---datasets2.csv<br/>
-      |---results/<br/>
-            |---plot.png<br/>
-            |---plot2.png<br/>
-            |---plot3.png<br/>
-      |---scripts/<br/>
-            |---dataset_gen.py<br/>
-            |---infer.py<br/>
-      |---infer.ipynb<br/>
+      &nbsp;|<br/>
+      &nbsp;|---data/<br/>
+            &emsp;&emsp;|---datasets1.csv<br/>
+            &emsp;&emsp;|---datasets2.csv<br/>
+      &nbsp;|---results/<br/>
+            &emsp;&emsp;|---plot.png<br/>
+            &emsp;&emsp;|---plot2.png<br/>
+            &emsp;&emsp;|---plot3.png<br/>
+      &nbsp;|---scripts/<br/>
+            &emsp;&emsp;|---dataset_gen.py<br/>
+            &emsp;&emsp;|---infer.py<br/>
+      &nbsp;|---infer.ipynb<br/>
             
 
 
