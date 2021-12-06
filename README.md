@@ -40,14 +40,12 @@
       </ul>
     </li>
     <li>
-     <ul>
+       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-      </ul>
-      <a href="#getting-started">Getting Started</a>
+       </ul>
+    <a href="#getting-started">Getting Started</a>
     </li>
-   
-    
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
