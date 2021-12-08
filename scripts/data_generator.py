@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
+PATH_TO_MODULE = '../data/'
+sys.path.append(PATH_TO_MODULE)
 
 def data_gen(num_samples):
 	# The desired mean values of the sample ~ 4 attributes .
@@ -20,7 +22,7 @@ def data_gen(num_samples):
 	df['col'] = y.tolist()
 	df = pd.DataFrame([pd.Series(x) for x in df.col])
 	df.columns = ['col_{}'.format(x+1) for x in df.columns]
-	df.to_csv(f'{num_samples}rows_dataset.csv', index = False)
+	df.to_csv(f'../data/{num_samples}rows_dataset.csv', index = False)
 	
 	
 if __name__ == '__main__':

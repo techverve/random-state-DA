@@ -14,6 +14,9 @@ from sklearn import  metrics
 import matplotlib.pyplot as plt
 from scipy.stats.stats import pearsonr
 
+PATH_TO_MODULE = '../data/'
+sys.path.append(PATH_TO_MODULE)
+
 def train_models(df, rs_limit):
     model_linear = LinearRegression()
     model_xgb = xgb.XGBRegressor(n_estimators=5000)
@@ -81,11 +84,11 @@ def infer(df):
 	print("Cross validation score for different values of random_state for XGBoost - ", scores_xgb)
  	
  if __name__ == '__main__':
- 	 df1 = pd.read_csv('100rows_dataset')
- 	 df2 = pd.read_csv('500rows_dataset')
- 	 df3 = pd.read_csv('1000rows_dataset')
- 	 df4 = pd.read_csv('10000rows_dataset')
- 	 df5 = pd.read_csv('100000rows_dataset')
+ 	 df1 = pd.read_csv('../data/100rows_dataset')
+ 	 df2 = pd.read_csv('../data/500rows_dataset')
+ 	 df3 = pd.read_csv('../data/1000rows_dataset')
+ 	 df4 = pd.read_csv('../data/10000rows_dataset')
+ 	 df5 = pd.read_csv('../data/100000rows_dataset')
 	 infer(df1)
 	 infer(df2)
 	 infer(df3)
