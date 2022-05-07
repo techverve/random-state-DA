@@ -143,7 +143,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - O P Joy Jefferson - joy.jefferson10@gmail.com
+O P Joy Jefferson - joy.jefferson10@gmail.com
 
 Project Link: [https://github.com/jeff10joy/random-state-DA](https://github.com/jeff10joy/random-state-DA)
 
